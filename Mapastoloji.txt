@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mapastroloji Blog</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f9f0f0;
+color: #333;
+margin: 0;
+padding: 0;
+}
+header {
+background-color: #ffcccc;
+padding: 10px;
+text-align: center;
+}
+nav {
+background-color: #ff9999;
+padding: 10px;
+text-align: center;
+}
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+nav ul li {
+display: inline;
+margin-right: 20px;
+}
+.container {
+max-width: 1200px;
+margin: 20px auto;
+padding: 0 20px;
+}
+.post {
+background-color: #fff;
+padding: 20px;
+margin-bottom: 20px;
+border-radius: 5px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.post h2 {
+color: #ff6666;
+}
+.post p {
+line-height: 1.6;
+}
+footer {
+background-color: #ffcccc;
+padding: 10px;
+text-align: center;
+}
+</style>
+</head>
+<body>
+<header>
+<h1>Mapastroloji Blog</h1>
+</header>
+<nav>
+<ul>
+<li><a href="#gundem">Güncel</a></li>
+<li><a href="#astroloji">Astroloji</a></li>
+<li><a href="#burclar">Burçlar</a></li>
+<li><a href="#yorumlar">Yorumlar</a></li>
+<li><a href="#iletisim">İletişim</a></li>
+</ul>
+</nav>
+<div class="container">
+<div class="post" id="gundem">
+<h2>Güncel Konular</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus elit quis lorem pretium, ac aliquet purus dapibus. Donec sed purus vitae felis vehicula pulvinar. Nullam vehicula, purus vel ullamcorper finibus, justo lorem rhoncus urna, at ultricies odio eros vel lorem.</p>
+</div>
+<div class="post" id="astroloji">
+<h2>Astroloji ve Yıldızlar</h2>
+<p>Integer vitae bibendum sapien, ac suscipit leo. Fusce maximus, libero nec faucibus commodo, odio justo sagittis purus, vel tempus lacus lorem vel nunc. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+</div>
+<div class="post" id="burclar">
+<h2>Burçlar ve Özellikleri</h2>
+<p>Vivamus vehicula fermentum ligula, sit amet rhoncus purus. Quisque tristique justo eu diam placerat ullamcorper. Proin eleifend ultricies dolor, vitae consectetur justo vestibulum ac. Nam posuere vehicula odio.</p>
+</div>
+<div class="post" id="yorumlar">
+<h2>Okuyucu Yorumları</h2>
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec in aliquet ipsum. Fusce mollis arcu non risus placerat, sed efficitur orci lobortis.</p>
+</div>
+<div class="post" id="iletisim">
+<h2>Bize Ulaşın</h2>
+<p>Aliquam erat volutpat. Sed nec turpis ac velit efficitur tempor. Duis sed libero non felis dapibus commodo. Morbi tempus magna eu justo cursus lacinia.</p>
+</div>
+</div>
+<footer>
+<p>&copy; 2024 Mapastroloji Blog - Tüm hakları saklıdır.</p>
+</footer>
+</body>
+</html>
